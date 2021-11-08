@@ -1,0 +1,34 @@
+.header{
+    background-color: red;
+    padding-right: 79px;
+    padding-left: 118px;
+    
+}
+
+@media screen and (max-width: 900px){
+    .header{padding: 0}
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #fffefe;
+    text-align: left;
+
+}
+
+.menuButton{
+    font-family: sans-serif;
+    font-weight: 700;
+    size: 18px;
+    margin-left: 38px;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drawerContainer{
+    padding: 20px 30px;
+}
