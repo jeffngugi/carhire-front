@@ -9,13 +9,15 @@
     .header{padding: 0}
 }
 
-.logo{
+.logocontainer{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     color: #fffefe;
     text-align: left;
+    display: flex;
 
 }
+
 
 .menuButton{
     font-family: sans-serif;

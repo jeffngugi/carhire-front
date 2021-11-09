@@ -3,6 +3,7 @@ import {AppBar, Box, Toolbar, IconButton, MenuItem, Typography, Button,Drawer, L
 import MenuIcon from '@mui/icons-material/Menu';
 import {Link as RouterLink} from 'react-router-dom'
 import './Header.css'
+import {logo} from '../../constants/images'
 
 const headersData = [
   {
@@ -118,8 +119,8 @@ const getDrawerChoices = () => {
     
 
   const appLogo = (
-    <Typography variant="h6" component="h1" className='logo'>
-      GariNow
+    <Typography variant="h6" component="h1" className='logocontainer'>
+      <img src={logo} /> <p>Kahaya</p>
     </Typography>
   );
 
